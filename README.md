@@ -58,3 +58,10 @@ mysql:
     Charset: "utf8mb4"
     DbName: "sqlx"
 ```
+
+###Modules:
+two modules must be in the $GOPATH:
+```
+go get "github.com/jmoiron/sqlx"
+go get "github.com/spf13/viper"
+```
