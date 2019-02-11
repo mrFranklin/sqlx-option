@@ -1,0 +1,8 @@
+mysql:
+  dev:
+    User: "root"
+    Password: ""
+    Host: "127.0.0.1"
+    Port: 3306
+    Charset: "utf8mb4"
+    DbName: "sqlx"
