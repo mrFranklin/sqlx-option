@@ -1,7 +1,7 @@
 # sqlx-option
 more convenient to init [golang-sqlx](https://github.com/jmoiron/sqlx) db
 
-###Feature:
+### Feature:
 - init sqlx db by using `Option` type:
 ```
 type Option struct {
@@ -27,7 +27,7 @@ mysql:
     dbname: eth-store
 ```
 
-###examples:
+### Examples:
 init sqlx db by using `Option` type:
 ```
     opt := &Option{
@@ -59,7 +59,7 @@ mysql:
     DbName: "sqlx"
 ```
 
-###Modules:
+### Modules:
 two modules must be in the $GOPATH:
 ```
 go get "github.com/jmoiron/sqlx"
